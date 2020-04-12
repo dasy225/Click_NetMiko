@@ -1,0 +1,2 @@
+banner motd #Welcome!
+You have entered $(hostname) @ $(domain)# 
