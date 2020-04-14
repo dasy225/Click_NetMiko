@@ -1,0 +1,3 @@
+interface LO99
+ip address 99.99.99.99 255.255.255.0
+no shut
