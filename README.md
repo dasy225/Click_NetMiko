@@ -3,6 +3,17 @@
 This code is from one of my videos on YouTube "Click_NetMiko".
 
 [![Click_NetMiko](http://img.youtube.com/vi/FlP2eJ8FqoE/0.jpg)](http://www.youtube.com/watch?v=FlP2eJ8FqoE "Click_NetMiko")
+```
+Using this code you can...
+* Prompt user for username and password
+* Entering options and commands to on command line
+-- Option for entering an IP address
+-- Option for entering device type
+-- Option for opening text file with configurations
+-- Option for opening text file with list of devices
+-- Option for entering a show command
+-- Commands for checking EIGRP and OSPF
+```
 
 ## Getting Started
 
