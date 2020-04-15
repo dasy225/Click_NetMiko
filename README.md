@@ -1,6 +1,8 @@
 # Click_NetMiko 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/NetworkGirlDebi/Netmiko)
 
+#### _**Project Status: On-going**_
+
 ## Netmiko
 Multi-vendor library to simplify Paramiko SSH connections to network devices. See [Netmiko](https://github.com/ktbyers/netmiko), for more info.
 
@@ -56,6 +58,36 @@ pip install venv
 py -3 -m venv {name_of_your_working_directory}
 source {name_of_your_working_directory}/Scripts/activate
 ```
+
+## Example of use
+_please note the ip address should be changed to your target ip, as well as the username and password_
+```
+python3 net_config.py --ip 192.168.57.11 --cmd "show ip interface brief"
+```
+![Capture1](./NetProject/Capture1.JPG)
+
+```
+python3 net_config.py --ip 192.168.57.11 Check_EIGRP
+```
+![CheckEIGRP](./NetProject/CheckEIGRP.gif)
+
+### Other Cli options and commands
+_please remember to change the target ip or file name to your own, as well as the username and password_
+```
+python3 net_config.py --ip 192.168.57.11 --cmd "show run"
+python3 net_config.py --ip 192.168.57.11 --config config_LO99
+python3 net_config.py --ip 192.168.57.11 --config config_motd
+python3 net_config.py --ip 192.168.57.11 Check_OSPF
+
+python3 net_config.py --device_list devices --cmd "show ip interface brief"
+python3 net_config.py --device_list devices --cmd "show run"
+python3 net_config.py --device_list devices --config config_LO99
+python3 net_config.py --device_list devices --config config_motd
+python3 net_config.py --device_list devices  Check_OSPF
+python3 net_config.py --device_list devices  Check_EIGRP
+```
+### Source
+The check_ospf command is from IPvZero. See the script on [his github](https://github.com/IPvZero/IPvZero/tree/master/Netmiko-video).
 
 ## About Me
 
