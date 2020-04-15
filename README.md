@@ -1,4 +1,5 @@
-# Click_NetMiko
+# Click_NetMiko 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/NetworkGirlDebi/Netmiko)
 
 This code is from one of my videos on YouTube "Click_NetMiko".
 
@@ -41,4 +42,3 @@ It is recommended that this demo be completed using Python 3.8.
 * Interests in NetDevOps, Automation, Programmability, Security.
 Follow me on [Twitter](https://twitter.com/Debi_ASY) | [YouTube](https://www.youtube.com/channel/UC0xrmfrXnxrw8ClTsa32LcQ) | [LinkedIn](https://www.linkedin.com/in/dasy225/)
 
-[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/NetworkGirlDebi/Netmiko)
