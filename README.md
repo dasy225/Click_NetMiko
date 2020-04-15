@@ -4,8 +4,11 @@
 This code is from one of my videos on YouTube "Click_NetMiko".
 
 [![Click_NetMiko](http://img.youtube.com/vi/FlP2eJ8FqoE/0.jpg)](http://www.youtube.com/watch?v=FlP2eJ8FqoE "Click_NetMiko")
+
+## Code Features
 ```
-Using this code you can...
+Integrating Click you can have the following at the CLI...
+
 * Prompt user for username and password
 * Entering options and commands to on command line
 -- Option for entering an IP address
