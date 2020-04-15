@@ -38,6 +38,19 @@ cd NetProject
 ### Local Python Environment Setup
 It is recommended that this demo be completed using Python 3.8.
 
+If you are not using a virtual machine, it is recommended to enable the virtual environment for the working directory.
+```
+#For OS X or Linux
+pip install virtualenv
+virtualenv {name_of_your_working_directory} --python=python3.8
+source {name_of_your_working_directory}/bin/activate
+
+#For Windows
+pip install venv
+py -3 -m venv {name_of_your_working_directory}
+source {name_of_your_working_directory}/Scripts/activate
+```
+
 ## About Me
 
 * Never worked in the IT industry, but always fastinatied by the evolving new technologies.
