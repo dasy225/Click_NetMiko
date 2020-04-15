@@ -1,8 +1,6 @@
 # Click_NetMiko 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/NetworkGirlDebi/Netmiko)
 
-#### _**Project Status: On-going**_
-
 ## Netmiko
 Multi-vendor library to simplify Paramiko SSH connections to network devices. See [Netmiko](https://github.com/ktbyers/netmiko), for more info.
 
@@ -86,6 +84,15 @@ python3 net_config.py --device_list devices --config config_motd
 python3 net_config.py --device_list devices  Check_OSPF
 python3 net_config.py --device_list devices  Check_EIGRP
 ```
+## Save Show Command to file
+When show command is entered, the user will be prompted whether to save the output of the show command.
+
+_please remember to change the target ip or file name to your own, as well as the username and password_
+```
+python3 net_config.py --ip 192.168.57.11 --cmd "show ip interface brief"
+```
+![SaveFile](./NetProject/ProjectNet_savefile.gif)
+
 ### Source
 The check_ospf command is from IPvZero. See the script on [his github](https://github.com/IPvZero/IPvZero/tree/master/Netmiko-video).
 
