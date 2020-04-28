@@ -1,17 +1,6 @@
 # Click_NetMiko 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/NetworkGirlDebi/Netmiko)
 
-## Netmiko
-Multi-vendor library to simplify Paramiko SSH connections to network devices. See [Netmiko](https://github.com/ktbyers/netmiko), for more info.
-
-## Click
-Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It’s the “Command Line Interface Creation Kit”. See [Click](https://click.palletsprojects.com/en/7.x/), for more info.
-
-## Video
-This code is from one of my videos on YouTube "Click_NetMiko".
-
-[![Click_NetMiko](http://img.youtube.com/vi/FlP2eJ8FqoE/0.jpg)](http://www.youtube.com/watch?v=FlP2eJ8FqoE "Click_NetMiko")
-
 ## Code Features
 ```
 Integrating Click you can have the following at the CLI...
@@ -25,6 +14,18 @@ Integrating Click you can have the following at the CLI...
 -- Option for entering a show command
 -- Commands for checking EIGRP and OSPF
 ```
+
+## Netmiko
+Multi-vendor library to simplify Paramiko SSH connections to network devices. See [Netmiko](https://github.com/ktbyers/netmiko), for more info.
+
+## Click
+Click is a Python package for creating beautiful command line interfaces in a composable way with as little code as necessary. It’s the “Command Line Interface Creation Kit”. See [Click](https://click.palletsprojects.com/en/7.x/), for more info.
+
+## Video
+This code is from one of my videos on YouTube "Click_NetMiko".
+
+[![Click_NetMiko](http://img.youtube.com/vi/FlP2eJ8FqoE/0.jpg)](http://www.youtube.com/watch?v=FlP2eJ8FqoE "Click_NetMiko")
+
 
 ## Getting Started
 For setting up the network environment, please see this video [Setting Up My Network Automation Environment!](https://youtu.be/3ZrkQK3aEIE)
